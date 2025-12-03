@@ -49,7 +49,7 @@ const char* password = "password";
 
 // Use OpenMeteo - completely free, no API key needed
 const char* weatherApiKey = "";         // Not needed for OpenMeteo
-const char* weatherCity = "Mangalore";  // Just for display
+const char* weatherCity = "your_city";  // Just for display
 const char* weatherUrl = "http://api.open-meteo.com/v1/forecast?latitude=12.87&longitude=74.88&current_weather=true&temperature_unit=celsius";
 
 // Time is already set for India (IST)
