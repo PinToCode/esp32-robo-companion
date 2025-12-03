@@ -44,8 +44,8 @@ Eye leftEye = { 20, 20 };
 Eye rightEye = { 70, 20 };
 
 // WiFi credentials - CHANGE THESE TO YOUR NETWORK
-const char* ssid = "CSD";
-const char* password = "csd@NITK2014";
+const char* ssid = "ssid";
+const char* password = "password";
 
 // Use OpenMeteo - completely free, no API key needed
 const char* weatherApiKey = "";         // Not needed for OpenMeteo
