@@ -59,7 +59,7 @@ A friendly ESP32 robot with animated eyes, person detection, and weather updates
   3. Select the downloaded ZIP file
   4. Restart Arduino IDE
 
-**Note**: If you can't find this library, see [troubleshooting section](#troubleshooting) for alternatives.
+**Note**: If you can't find this library, see the "Library Issues" section below for alternatives.
 
 ## 🚀 Quick Setup
 
@@ -147,8 +147,21 @@ const unsigned long weatherUpdateInterval = 600000;  // 10 minutes
 - **FluxGarage_RoboEyes not found**:
   - Check if library is properly installed in Arduino/libraries folder
   - Try restarting Arduino IDE
-  - Verify ZIP file downloaded correctly
-  - Alternative: Remove robot eyes functionality (see DOCUMENTATION.md)
+  - Verify ZIP file downloaded correctly from: https://github.com/FluxGarage/RoboEyes
+  - **Alternative Solution**: Remove robot eyes and use basic circles:
+    ```cpp
+    // Replace RoboEyes functions with:
+    void drawBasicEyes() {
+      display.fillCircle(30, 30, 15, SH110X_WHITE);
+      display.fillCircle(90, 30, 15, SH110X_WHITE);
+      display.fillCircle(30, 30, 8, SH110X_BLACK);  // pupils
+      display.fillCircle(90, 30, 8, SH110X_BLACK);
+    }
+    
+    // Comment out all roboEyes.* function calls
+    // Replace with drawBasicEyes() function
+    ```
+  - **Simple Fix**: Comment out lines 21-23 and all roboEyes functions if you want to skip animated eyes entirely
 
 ### Sensor Problems
 - **No person detection**: 
