@@ -2,7 +2,7 @@
 
 A friendly ESP32 robot with animated eyes, person detection, and weather updates that sits on your desk and interacts with you!
 
-## 🤖 Features
+##  Features
 
 - **Animated Robot Eyes** with different moods (happy, sad, angry, tired)
 - **Person Detection** using VL53L0X distance sensor with greeting messages
@@ -12,7 +12,7 @@ A friendly ESP32 robot with animated eyes, person detection, and weather updates
 - **WiFi Connectivity** with status indicators
 - **Interactive Greetings** - says hello when you approach!
 
-## 🛠️ Hardware Components
+##  Hardware Components
 
 - ESP32 Development Board
 - SH1106 OLED Display (128x64, I2C)
@@ -21,7 +21,7 @@ A friendly ESP32 robot with animated eyes, person detection, and weather updates
 - Jumper wires and breadboard
 - Power supply (5V recommended for servo)
 
-## 🔌 Wiring Diagram
+##  Wiring Diagram
 
 | Component | ESP32 Pin | Power | Notes |
 |-----------|-----------|--------|-------|
@@ -61,7 +61,7 @@ A friendly ESP32 robot with animated eyes, person detection, and weather updates
 
 **Note**: If you can't find this library, see the "Library Issues" section below for alternatives.
 
-## 🚀 Quick Setup
+##  Quick Setup
 
 ### 1. Hardware Setup
 - Connect components according to wiring diagram
@@ -94,7 +94,7 @@ const char* weatherUrl = "http://api.open-meteo.com/v1/forecast?latitude=YOUR_LA
 3. Upload the code
 4. Open Serial Monitor (115200 baud) for debugging
 
-## 🎭 How It Works
+##  How It Works
 
 ### Normal Operation Cycle
 1. **Robot Eyes** - Shows animated eyes with random mood changes (10 seconds)
@@ -113,7 +113,7 @@ const char* weatherUrl = "http://api.open-meteo.com/v1/forecast?latitude=YOUR_LA
 - **Built-in LED** - ON = WiFi connected, OFF = No WiFi
 - **Serial Monitor** - Shows distance readings, weather updates, memory usage
 
-## ⚙️ Configuration Options
+##  Configuration Options
 
 ### Distance Detection Sensitivity
 ```cpp
@@ -136,7 +136,7 @@ const unsigned long servoRestTime = 60000;     // 1 minute rest
 const unsigned long weatherUpdateInterval = 600000;  // 10 minutes
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Display Issues
 - **Blank screen**: Try changing `i2c_Address` from `0x3c` to `0x3d`
@@ -218,18 +218,18 @@ See DOCUMENTATION.md for advanced weather configuration.
 
 For detailed technical information, architecture details, and advanced configuration, see [DOCUMENTATION.md](DOCUMENTATION.md).
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create your feature branch
 3. Test thoroughly with real hardware
 4. Submit a pull request with detailed description
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **FluxGarage** - For the excellent RoboEyes library
 - **OpenMeteo** - For free weather API service
@@ -237,7 +237,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Pololu** - For VL53L0X sensor library
 - **ESP32 Community** - For extensive documentation and support
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Voice command recognition
 - [ ] Mobile app for remote control
@@ -247,7 +247,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [ ] Temperature/humidity sensors
 - [ ] Scheduled messages and reminders
 
-## 📞 Support
+##  Support
 
 - **Issues**: Open an issue in this repository
 - **Discussions**: Use GitHub Discussions for questions
@@ -256,4 +256,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 **Built with ❤️ for interactive robotics and IoT projects**
 
-*Your desk companion is ready to greet you!* 🤖👋
+*Your desk companion is ready to greet you!* 
