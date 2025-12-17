@@ -37,7 +37,7 @@ A friendly ESP32 robot with animated eyes, person detection, and weather updates
 | **Common** | | | |
 | GND | GND | GND | All components |
 
-## 📚 Required Libraries
+##  Required Libraries
 
 ### Standard Libraries (Install via Arduino IDE Library Manager)
 ```
@@ -192,7 +192,7 @@ Enable Serial Monitor (115200 baud) to see:
 - Memory usage reports
 - Error messages
 
-## 🔧 Advanced Configuration
+##  Advanced Configuration
 
 ### Adding Custom Greetings
 ```cpp
@@ -214,7 +214,7 @@ nextMoodInterval = random(3000, 7000);  // 3-7 seconds
 ### Multiple Weather Locations
 See DOCUMENTATION.md for advanced weather configuration.
 
-## 📖 Documentation
+##  Documentation
 
 For detailed technical information, architecture details, and advanced configuration, see [DOCUMENTATION.md](DOCUMENTATION.md).
 
