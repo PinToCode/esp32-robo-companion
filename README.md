@@ -1,5 +1,9 @@
 # ESP32 Robot Companion
 
+<p align="center">
+  <img src="Robot_companion.jpeg" width="350">
+</p>
+
 A friendly ESP32 robot with animated eyes, person detection, and weather updates that sits on your desk and interacts with you!
 
 ##  Features
